@@ -1,0 +1,44 @@
+
+a  {
+    text-transform: uppercase;
+    font-family: var(--heading-font-family), sans-serif;
+    color: var(--font-color-cta);
+    background-color: var(--cta-background-color);
+    font-size: 1.25rem;
+    padding: 1.2em  1.75em;
+    margin-block: 32px;
+    position: relative;
+}
+
+a.go-button:after {
+    content: url("../assets/icon-arrow-right.svg");
+    right: -2.8em;
+
+}
+
+a.back-button:before {
+    content: url("../assets/icon-arrow-left.svg");
+    left: -2.8em;
+}
+a.go-button:after, a.back-button:before {
+
+    width: 2.8em;
+    height: 3.6em;
+    position: absolute;
+    background-color: var(--cta-background-color-secondary);
+    top: 0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.go-button:hover, a.back-button:hover {
+    background-color: var(--cta-background-color-secondary);
+}
+
+a.go-button:hover:after, a.back-button:hover:before {
+    background-color: var(--cta-background-color);
+}
+

@@ -1,0 +1,27 @@
+:root {
+    --heading-font-family: 'Big Shoulders Display';
+    --font-family: 'Outfit';
+    --fs-heading-xl-mobile: 3.75rem; /* 60px */
+    --fs-heading-xl-tablet: 4.375rem; /* 70px */
+    --fs-heading-xl-desktop: 6rem; /* 96px */
+
+    --fs-subheading-mobile: 3.125rem;
+
+    --clr-dark-grey: #444444;
+    --clr-almost-black: #151515;
+    --clr-white: white;
+    --clr-gold: #D5966C;
+
+    --font-color-body: var(--clr-dark-grey);
+    --font-color-headings: var(--clr-almost-black);
+    --font-color-cta: var(--clr-white);
+
+    --cta-background-color: var(--clr-almost-black);
+    --cta-background-color-secondary: var(--clr-gold);
+
+    --content-card-background: var(--clr-almost-black);
+    --footer-background-color: var(--clr-almost-black);
+
+    --line-height-mobile: 28px;
+
+}

@@ -1,0 +1,31 @@
+.cmp-content {
+    margin: 120px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cmp-content__card {
+    background-color: var(--content-card-background);
+    color: var(--clr-white);
+    padding: 46px 24px;
+}
+
+.cmp-content__card--heading {
+    color: var(--clr-white);
+    margin-bottom: 24px;
+}
+
+.cmp-location {
+    margin-inline: 56px;
+    margin-top: 24px;
+    min-height: 550px;
+}
+
+.cmp-location-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}

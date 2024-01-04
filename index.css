@@ -1,0 +1,50 @@
+@import "variables.css";
+@import "components/hero.css";
+@import "components/cta.css";
+@import "components/content-section.css";
+@import "components/footer.css";
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: var(--font-family), sans-serif;
+    font-weight: 300;
+    color: var(--font-color-body);
+    font-size: clamp(1.125rem, 1.037rem + 0.3756vw, 1.375rem);
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font-family), sans-serif;
+    color: var(--font-color-headings);
+}
+
+h1 {
+    margin-block: 32px;
+    font-size: clamp(var(--fs-heading-xl-mobile), 2.9577rem + 3.3803vw, var(--fs-heading-xl-desktop));
+    line-height: clamp(55px, 65px, 88px);
+    text-transform: uppercase;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    font-size: var(--fs-subheading-mobile);
+    text-transform: uppercase;
+}
+
+p {
+    line-height: var(--line-height-mobile);
+}
