@@ -10,6 +10,10 @@ a  {
     position: relative;
 }
 
+a.go-button, a.back-button {
+   white-space: nowrap;
+}
+
 a.go-button:after {
     content: url("../assets/icon-arrow-right.svg");
     right: -2.8em;
