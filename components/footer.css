@@ -20,3 +20,16 @@ footer {
     display: flex;
     gap: 10px;
 }
+
+.footer-light {
+    background-color: var(--footer-background-color-secondary);
+    color: var(--clr-almost-black);
+}
+
+.footer-light a {
+    background-color: unset;
+}
+
+.footer-light img {
+    filter: invert(90%);
+}
